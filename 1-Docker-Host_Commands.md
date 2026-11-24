@@ -32,10 +32,10 @@
 ### Automation
     cd c:\docker\traefik
 
-    Invoke-WebRequest -Uri https://raw.githubusercontent.com/TeroKeso/Traefik_2024/main/2-traefik.yml -OutFile docker-compose.yml -UseBasicParsing
+    Invoke-WebRequest -Uri https://raw.githubusercontent.com/TeroKeso/Traefik_2026/main/2-traefik.yml -OutFile docker-compose.yml -UseBasicParsing
     
     MAC
-    curl https://raw.githubusercontent.com/TeroKeso/Traefik_2024/main/2-traefik.yml --output docker-compose.yml
+    curl https://raw.githubusercontent.com/TeroKeso/Traefik_2026/main/2-traefik.yml --output docker-compose.yml
 
 ### Little help for for tabbing correctly (Need to be run on host that runs Vscode)
     
